@@ -6,10 +6,10 @@ import HomePage from './Pages/HomePage'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Newsapp-Project">
     <Navbar/>
     <Routes>
-     <Route path='' element={<HomePage />} />
+     <Route path='/' element={<HomePage />} />
     </Routes>
     <Footer/>
     </BrowserRouter>
